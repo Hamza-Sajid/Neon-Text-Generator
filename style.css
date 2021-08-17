@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body
+{
+  background: lightgreen;
+}
+
+main
+{
+  background: white;
+  border: 2px solid black;
+  margin: auto;
+  width: 90%;
+  height: 30em;
+  margin-top: 2em;
+  display: flex;
+  overflow: auto;
+}
+
+
+.out
+{
+  background: black;
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+h1
+{
+  overflow: hidden;
+  width: 70%;
+  position: relative;
+  left: 10%;
+  top:35%;
+  font-size: 2.2rem;
+  animation: pulsate 1.5s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 10PX;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+}
+
+@keyframes pulsate {
+
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe,
+      0 0 100px #bc13fe,
+      0 0 150px #bc13fe;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #bc13fe,
+    0 0 45px #bc13fe,
+    0 0 55px #bc13fe,
+    0 0 70px #bc13fe,
+    0 0 80px #bc13fe;
+
+}
+
+
+
+}
+.neonText {
+  overflow: hidden;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+
+h2
+{
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 2em;
+}
+h3
+{
+  font-family: 'Georama', sans-serif;
+padding-top: 2em;
+}
+.format
+{
+  background: white;
+  margin-left: 2em;
+}
+
+
+button
+{
+  font-family: 'Open Sans', sans-serif;
+
+  margin-top: 0.5em;
+  width: 6.5em;
+  height: 2.5em;
+  border: 1px solid gray;
+}
+
+.color
+{
+  margin-top: 1em;
+}
+
+.input
+{
+  margin-top: 1em;
+  width: 80%;
+  height: 1.5em;
+  text-align: center;
+
+}
+
+.colors
+{
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content: space-around;
+align-items: flex-start;
+
+
+}
+.favcolor1
+{
+  width: 2em;
+  height: 2em;
+border: 1px solid white;
+  border-radius: 100%;
+  background: #E62E2D;
+  margin: 10px;
+
+
+}
+
+.favcolor2
+{
+  width: 2em;
+  height: 2em;
+border: 1px solid white;
+  border-radius: 100%;
+    background: #567DA7;
+  margin: 10px;
+}
+
+.favcolor3
+{
+  width: 2em;
+  height: 2em;
+border: 1px solid white;
+  border-radius: 100%;
+  background: #E7DB57;
+  margin: 10px;
+}
+
+.favcolor4
+{
+  width: 2em;
+  height: 2em;
+border: 1px solid white;
+  border-radius: 100%;
+  background: #E72EE9;
+  margin: 10px;
+}
