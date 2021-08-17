@@ -32,6 +32,8 @@ main
 }
 h1
 {
+
+  font-family: 'Satisfy', cursive;
   overflow: hidden;
   width: 70%;
   position: relative;
